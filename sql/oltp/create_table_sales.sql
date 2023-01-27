@@ -1,3 +1,5 @@
+-- This code creates the table where data will be extracted
+
 CREATE TABLE IF NOT EXISTS sales(
 
     order_id INT NOT NULL UNIQUE,
