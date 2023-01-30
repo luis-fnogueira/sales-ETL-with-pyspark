@@ -2,7 +2,7 @@
 
 CREATE TABLE IF NOT EXISTS customer_dimension (
 
-	id SERIAL PRIMARY KEY,
+	id_customer SERIAL PRIMARY KEY,
 	customer_name VARCHAR(256),
 	customer_lastname VARCHAR(256)
 
