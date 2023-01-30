@@ -8,7 +8,9 @@ CREATE TABLE IF NOT EXISTS fact_table (
 	customer_id INT,
 	address_id INT, 
 	quantity INT,
-	order_value INT
+	order_value INT,
+	order_date DATE,
+	product_id INT
 
 )
 
