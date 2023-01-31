@@ -2,7 +2,7 @@
 
 CREATE TABLE IF NOT EXISTS address_dimension (
 
-	id_address SERIAL PRIMARY KEY,
+	address_id SERIAL PRIMARY KEY,
 	city VARCHAR(256),
 	state VARCHAR(256)
 
